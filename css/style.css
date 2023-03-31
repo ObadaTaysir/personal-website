@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: rgb(170, 186, 186);
+    min-height: 505px;
+}
+.nav1{
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: rgb(170, 186, 186);
+}
+
+li{
+    list-style:none;
+    margin-left: 20px;
+}
+li a{
+   
+    text-decoration: none;
+    color: darkmagenta;
+}
+li a:hover{
+   
+    color:rgb(157, 17, 157);
+}
+.marginli{
+    padding-left: 960px;
+}
+.namelogo{
+    font-family: 'Jost', sans-serif;
+}
+.profileHeeder{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 238, 237);
+    width:50%;
+    margin: auto;
+    margin-top: -300px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px;
+
+}
+.photoprofileHeeder{
+    border-radius: 50px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+.photoheder{
+  
+    border-radius: 12px;
+    width: 350px;
+    height: 400px; 
+    /*اذا بدي اغير علي الصور بشكل دائرة*/
+    /* margin-top: 80px;
+    width:310px;
+    height:310px;
+    border-radius: 250px; */
+
+}
+.txtprofileHeeder{
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+    line-height: 1.4;
+}
+.h5txtprofileHeeder{
+    margin-top: 10px;
+    line-height: 1.4;
+    font-size: 13px;
+}
+.PtxtprofileHeeder{
+    margin-top: 30px;
+    line-height: 1.7;
+
+}
+.fa-sharp{
+    color: darkmagenta;
+}
+
+
+
+/*------------------------------- Bag Home -------------------------------*/
+
+ /*------------------------section1 home ---------------*/   
+ .fatherSEC1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 80px;
+}
+.PargraphSEC1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+   
+}
+.hrSEC1{
+    width: 300px;
+    margin: auto;
+    margin-top: 8px;
+}
+.hrSEC11{
+    width: 380px;
+    margin: auto;
+    margin-top: 8px;
+}
+.textSEC1{
+    margin-top: 60px;
+    line-height: 1.8;
+}
+
+.text-ON-SEC1{
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.ppSEC1{
+    margin-left: 70px;
+}
+.buttonSEC1{
+    margin-top: 50px;
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.buttonSEC1:hover{
+    background-color: rgb(234, 238, 237);
+}
+
+.button {
+    --color: #67d3ba;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+   
+
+ /*------------------------section2 home ---------------*/   
+ .fatherSEC2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 80px;
+}
+.PargraphSEC2{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+.hrSEC2{
+    width: 300px;
+    margin: auto;
+    margin-top: 8px;
+}
+.textSEC2{
+    margin-top: 60px;
+    line-height: 1.8;
+}
+
+.text-ON-SEC2{
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.ppSEC2{
+    margin-left: 70px;
+}
+.ppSEC3{
+    font-size: 18px;
+}
+/*------------------------------- Bag About 1-------------------------------*/
+.SCEabout{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 100px;
+    /* background-color: rgb(170, 186, 186);
+    width: 950px;
+    height: 500px;
+    padding: 50px;
+    margin-left: 20%;
+    border-radius: 50px; */
+}
+.photoAbout{
+    width:300px; 
+    height:330px;
+    border-radius: 150px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+   
+}
+.pargraphAbout{
+    margin-left: 30px;
+}
+.Aboutme{
+    font-weight: bold;
+    color: rgb(231, 47, 118);
+}
+.lineAbout{
+    width: 150px;
+}
+.textAbout{
+    line-height: 1.8;
+    margin-left: 50px;
+    padding-left: 12px;
+    background-color: white;
+    height: 440px;
+    border-radius: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*-------------------Section MAPS----------------*/
+.fatherMAPS{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 50px;
+   
+}
+.PrgraphMaps{
+    text-align: center;
+    margin-top: 50px;
+    font-weight:bold;
+    color: rgb(19, 17, 18);
+}
+
+.HRMAPS{
+    width: 170px;
+    margin:auto;
+}
+.textMAPS{
+    margin-top: 100px;
+}
+
+/*------------------------------- Bag skills --------------------------------*/
+
+.fatherSECSkills{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 80px;
+}
+.PargraphSECSkills{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+.hrSECSkills{
+    width: 350px;
+    margin: auto;
+    margin-top: 5px;
+   
+}
+.textSECSkills{
+    margin-top: 60px;
+    line-height: 1.8;
+}
+
+.text-ON-SECSkills{
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.pp{
+    margin-left: 70px;
+}
+.buttonSECSkills{
+    margin-top: 50px;
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.buttonSEC1:hover{
+    background-color: rgb(118, 148, 140);
+}
+
+
+.pargraphCourses{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 200px;
+    padding-top: 50px;
+    
+}
+.HRline{
+    width: 250px;
+    margin-left: 42%;
+}
+
+.fatherSkills1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 50px;
+    min-height:350px;
+    margin-bottom: 200px;
+
+}
+.backgroundcolorSECskills{
+    background-color: rgb(170, 186, 186);
+    height: 600px;
+
+}
+
+
+.sonSkills1,.sonSkills2,.sonSkills3,.sonSkills4{
+    background-color: rgb(226, 208, 208);
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px ;
+    height:380px
+
+
+}
+.Cphoto,.pythonphoto,.frontendphoto,.javaphoto{
+    width: 100px;
+    height: 100px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    margin-left:100px;
+    
+}
+
+.pargraphPH1{
+    margin:12px;
+}
+
+
+/*------------------------------- Bag Services --------------------------------*/
+
+/*------------Section 1 Bag Services ----------*/
+.PargraphSec1BagServices{
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 60px;
+}
+.HrSec1BagServices{
+    width: 180px;
+    margin-left: 47%;
+    margin-bottom: 50px;
+}
+.fatherBagServicesSEC1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*------------Section 2 Bag Services ----------*/
+.PargraphSec2BagServices{
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 60px;
+}
+.HrSec2BagServices{
+    width: 110px;
+    margin-left: 46%;
+    margin-bottom: 50px;
+}
+.fatherBagServicesSEC2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/*------------------------------- Bag Contact --------------------------------*/
+
+/*--------------------Section 1 Bag Contact ----------*/
+
+.fatherSEC1Contact{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+.PargraphSEC1Contact{
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 10%;
+
+}
+
+.HRSEC1Contact{
+    width: 350px;
+    margin-left: 36%;
+}
+
+.button1SEC1Contact{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(159, 121, 121);
+    color: white;
+}
+.button1SEC1Contact:hover{
+
+    background-color: rgb(192, 186, 185);
+    color: rgb(205, 45, 45);
+
+}
+.button2SEC1Contact{
+    margin-left: 20px;
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button2SEC1Contact:hover{
+
+    background-color: rgb(241, 50, 8);
+    color: rgb(238, 228, 228);
+
+}
+
+/*--------------------Section 2 Bag Contact ----------*/
+
+.fatherContact{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color:rgb(120, 181, 181);
+
+    margin-bottom:10%;
+
+}
+
+.InputDatas{
+    margin-top: 10%;
+    border:20px;
+}
+.buttoncontact{
+    margin-top:50px;
+    margin-left: 60px;
+}
+.MapsContact{
+    margin-top:4%;
+    margin-bottom: 4%;
+}
+.PargraphContact{
+    text-align: center;
+    font-weight:bold;
+    margin-top: 100px;
+}
+.HrContact{
+    width: 220px;
+    margin: auto;
+    margin-bottom: 12px;
+    
+}
+.kk{
+    display: flex;
+    font-display: row;
+}
+.borderInput{
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-right:30px;
+    margin-left: 22px;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-left: 12px;
+     box-shadow: 0px 5px 15px ;   
+}
+.buttoncontact{
+    display: flex;
+    flex-direction:row;
+}
+
+
+
+/*-------------------------------footer--------------------------------*/
+
+.footer{
+    background-color: rgb(170, 186, 186);
+    min-height: 150px;
+ 
+}
+.footercommunication ul{  
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  
+}
+.footercommunication ul li{
+    margin-top: auto;
+}
+.buttonCV a{
+    text-decoration: none;
+    color:white;
+    
+}
+.fa-brands{
+    background-color: rgb(233, 224, 224);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.buttonCV{
+         margin-left:20px;
+         margin-top: 30px;
+        --glow-color: rgb(222, 215, 229);
+        --glow-spread-color: rgba(70, 50, 88, 0.781);
+        --enhanced-glow-color: rgb(231, 206, 255);
+        --btn-color: rgb(137, 131, 143);
+        border: .25em solid var(--glow-color);
+        padding: 1em 3em;
+        color: var(--glow-color);
+        font-size: 10px;
+        font-weight: bold;
+        background-color: var(--btn-color);
+        border-radius: 1em;
+        outline: none;
+        box-shadow: 0 0 1em .25em var(--glow-color),
+               0 0 4em 1em var(--glow-spread-color),
+               inset 0 0 .75em .25em var(--glow-color);
+        text-shadow: 0 0 .5em var(--glow-color);
+        position: relative;
+        transition: all 0.3s;
+       }
+       
+       button::after {
+        pointer-events: none;
+        content: "";
+        position: absolute;
+        top: 120%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--glow-spread-color);
+        filter: blur(2em);
+        opacity: .7;
+        transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+        
+       }
+       
+       button:hover {
+        color: var(--btn-color);
+        background-color: var(--glow-color);
+        box-shadow: 0 0 1em .25em var(--glow-color),
+               0 0 4em 2em var(--glow-spread-color),
+               inset 0 0 .75em .25em var(--glow-color);
+       }
+       
+       button:active {
+        box-shadow: 0 0 0.6em .25em var(--glow-color),
+               0 0 2.5em 2em var(--glow-spread-color),
+               inset 0 0 .5em .25em var(--glow-color);
+       
+}
+
+.textfooter{
+    text-align: center;
+}
+
+.textfooter1{
+    margin-top: 150px;
+    text-align: center;
+    background-color: rgb(170, 186, 186);
+    height: 70px;
+    padding-top: 20px;
+}

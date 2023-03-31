@@ -1,0 +1,627 @@
+
+@media only screen and (max-width:600px){    /*------Extrasmll -----*/
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav1{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        
+        
+    }
+    .marginli{
+        padding-left: 0px;
+    }
+    .profileHeeder{
+        display: flex;
+        flex-direction: column;
+        margin-top: -200px;
+        width: 350px;
+    }
+    .photoheder{
+        width: 250px;
+        height: 300px;
+        margin-left: 40px;
+    }
+     /*------------section1 home ----------*/  
+     .fatherSEC1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .PargraphSEC1{
+        font-size: 25px;
+        
+    }
+    .hrSEC1{
+        width: 150px;
+        margin:auto;
+        margin-top:12px;
+    }
+
+    .text-ON-SEC1{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .ppSEC1{
+        
+        line-height:22px;
+        margin-left: 30px;
+    }    
+    
+     /*----------section2 home ----------*/   
+     .fatherSEC2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .PargraphSEC2{
+        font-size: 25px;
+    }
+    .hrSEC2{
+        width: 150px;
+        margin-left: 35%;
+    }
+    .phoneSEC2{
+        width: 300px;
+        height: 290px;
+        margin-left: 40px;
+    }
+    .text-ON-SEC2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .ppSEC2{
+        
+        line-height:22px;
+        margin-left: 30px;
+    }    
+
+    /*---------------------- footer home ----------------------*/
+    .footercommunication{
+        display: flex;
+        flex-direction: column;
+    }
+    .textfooter{
+        font-size: small;
+    }
+    /*----------------------  About     ----------------------*/
+
+    /*------------About SECTION 1 -------------*/
+    .SCEabout{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        font-size: 20px;
+        margin-left:60px;
+    }
+    .pargraphAbout{
+        margin-left:60px;
+    }
+    /*------------About SECTION 2 -------------*/
+    .PrgraphMaps{
+        text-align: center;
+        margin-top: 100px;
+        font-weight:bold;
+        color: rgb(19, 17, 18);
+    }
+    .HRMAPS{
+        width: 135px;
+        margin:auto;
+    }
+    .fatherMAPS{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .MAPSDimensions{
+        width: 350px;
+        height: 350px;
+    }
+    .MAPS{
+        margin-left: 50px;
+        margin-top:12px;
+    }
+    
+    .MAPSDimensions{
+        width:410px; 
+        height:400px;
+    }
+    .textMAPS{
+        margin-left: 50px;
+        margin-bottom: 80px;
+    }
+    .textfooter1{
+        font-size: small;
+    }
+    .PrgraphMaps{
+        margin-top: 120px;
+
+    }
+
+    /*----------------------  Skills   ----------------------*/
+        /*------------ Skills SECTION 1 -------------*/
+
+    .fatherSECSkills{
+        display: flex;
+        flex-direction:column;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+    .PargraphSECSkills{
+        font-weight: bold;
+        text-align: center;
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .hrSECSkills{
+        margin: auto;
+        width: 250px;
+    }
+    .phoneSECSkills{
+        width: 300px;
+        height: 230px;
+    }
+    .text-ON-SECSkills{
+        font-size: 20;
+    }
+
+       /*------------ Skills SECTION 2 -------------*/
+
+    .fatherSkills1{
+        display: flex;
+        flex-direction:column;
+        margin-top:10px;
+        margin-left: 80px;
+        
+    }
+    
+    .pargraphCourses{
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+       
+        
+    }
+    .HRline{
+        width: 250px;
+        margin: auto;
+        margin-top:8px;
+        margin-bottom: 40px;
+    }
+    .backgroundcolorSECskills{
+        height:1700px;
+    
+    }
+    .Cphoto,.pythonphoto, .frontendphoto, .javaphoto{
+        width: 70px;
+        height: 70px;
+        margin-top: 12px;
+        border-radius: 50px;
+        margin-left:130px;
+        margin-bottom:13px
+        
+    }
+   
+    .pargraphPH1{
+        font-size:medium;
+        margin:12px;
+    }
+    
+    .sonSkills1 ,.sonSkills2,.sonSkills3,.sonSkills4{
+        background-color: rgb(226, 208, 208);
+        width: 320px;
+        margin-bottom: 12px;
+        min-height: 350px;
+        border-radius: 12px;
+    }
+
+
+    /*----------------------  Services   ----------------------*/
+        /*------------ Services SECTION 1 -------------*/
+        .fatherBagServicesSEC1{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .PargraphSec1BagServices{
+            font-weight: bold;
+            margin-left:160px;
+            margin-top: 60px;
+        }
+
+        .HrSec1BagServices{
+            width: 140px;
+            margin:auto;
+            margin-bottom: 50px;
+        }
+        .TextServicesSEC1 p{
+            font-size:15px;
+            margin-left:25px;
+        }
+        .PhotoServicesSEC1{
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+         /*------------ Services SECTION 1 -------------*/
+        .PhotoServicesSEC2{
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+        .TextServicesSEC2 p{
+            font-size:15px;
+            margin-left:25px;
+        }
+
+        
+    
+/*------------------------------- Bag Contact --------------------------------*/
+
+        /*--------------------Section 1 Bag Contact ----------*/
+        .PargraphContact{
+            text-align: center;
+
+        }
+        .fatherContact{
+            display: flex;
+            flex-direction:column;
+        }
+        
+        .InputDatas{
+            margin: auto;
+            margin-top: 10%;
+        }
+       
+        .MapsContact{
+            margin-top:4%;
+            margin-bottom: 4%;
+            padding-left: 10%;
+        }
+        .borderInput{
+            width: 300px;
+            border-radius: 20px;
+            padding-top: 12px;
+            padding-bottom: 10px;
+            margin-left: 22px;
+            padding-right:30px;
+        }
+        .kk{
+            display: flex;
+            flex-direction: column;
+        }
+        .button1SEC1Contact{
+            margin-left:-25px;
+        }
+        
+}     
+
+@media only screen and (max-width:992px){/*------ mddiam -----*/
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav1{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        
+        
+    }
+    .marginli{
+        padding-left: 0px;
+    }
+    .profileHeeder{
+        display: flex;
+        flex-direction: column;
+        margin-top: -200px;
+        width: 350px;
+    }
+    .photoheder{
+        width: 250px;
+        height: 300px;
+        margin-left: 40px;
+    }
+     /*------------section1 home ----------*/  
+    .fatherSEC1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .PargraphSEC1{
+        font-size: 25px;
+    }
+    .hrSEC1{
+        width: 150px;
+        margin:auto;
+    }
+    .phoneSEC1{
+        width: 300px;
+        height: 290px;
+        margin-left: 22%;
+    }
+    .text-ON-SECSkills{
+        font-size: 20px;
+        margin-left: -30px;
+        text-align: center;
+    }
+    .pp{
+    
+        line-height:22px;
+        margin-left: -30px;
+    }    
+
+     /*----------section2 home ----------*/   
+     .fatherSEC2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .PargraphSEC2{
+        font-size: 25px;
+    }
+    .hrSEC2{
+        width: 150px;
+        margin-left: 35%;
+    }
+    .phoneSEC2{
+        width: 300px;
+        height: 290px;
+        margin-left: 40px;
+    }
+    .text-ON-SEC2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .ppSEC2{
+        
+        line-height:22px;
+        margin-left: 30px;
+    }    
+
+    /*---------------------- footer home ----------------------*/
+    .footercommunication{
+        display: flex;
+        flex-direction: column;
+    }
+    .textfooter{
+        font-size: small;
+    }
+    /*----------------------  About     ----------------------*/
+
+    /*------------About SECTION 1 -------------*/
+    .SCEabout{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        font-size: 20px;
+        margin-left:60px;
+    }
+    .pargraphAbout{
+        margin-left:60px;
+    }
+    /*------------About SECTION 2 -------------*/
+    .PrgraphMaps{
+        text-align: center;
+        margin-top: 100px;
+        font-weight:bold;
+        color: rgb(19, 17, 18);
+    }
+    .HRMAPS{
+        width: 135px;
+        margin:auto;
+    }
+    .fatherMAPS{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .MAPSDimensions{
+        width: 350px;
+        height: 350px;
+    }
+    .MAPS{
+        margin-left: 50px;
+        margin-top:12px;
+    }
+    
+    .MAPSDimensions{
+        width:410px; 
+        height:400px;
+    }
+    .textMAPS{
+        margin-left: 50px;
+        margin-bottom: 80px;
+    }
+    .textfooter1{
+        font-size: small;
+    }
+    .PrgraphMaps{
+        margin-top: 120px;
+
+    }
+
+    /*----------------------  Skills   ----------------------*/
+        /*------------ Skills SECTION 1 -------------*/
+
+    .fatherSECSkills{
+        display: flex;
+        flex-direction:column;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+    .PargraphSECSkills{
+        font-weight: bold;
+        text-align: center;
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .hrSECSkills{
+        margin: auto;
+        width: 250px;
+    }
+    .phoneSECSkills{
+        width: 300px;
+        height: 230px;
+    }
+    .text-ON-SECSkills{
+        font-size: 20;
+    }
+
+       /*------------ Skills SECTION 2 -------------*/
+
+    .fatherSkills1{
+        display: flex;
+        flex-direction:column;
+        margin-top:10px;
+        margin-left: 80px;
+        
+    }
+    
+    .pargraphCourses{
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+       
+        
+    }
+    .HRline{
+        width: 250px;
+        margin: auto;
+        margin-top:8px;
+        margin-bottom: 40px;
+    }
+    .backgroundcolorSECskills{
+        height:1700px;
+    
+    }
+    .Cphoto,.pythonphoto, .frontendphoto, .javaphoto{
+        width: 70px;
+        height: 70px;
+        margin-top: 12px;
+        border-radius: 50px;
+        margin-left:130px;
+        margin-bottom:13px
+        
+    }
+   
+    .pargraphPH1{
+        font-size:medium;
+        margin:12px;
+    }
+    
+    .sonSkills1 ,.sonSkills2,.sonSkills3,.sonSkills4{
+        background-color: rgb(226, 208, 208);
+        width: 320px;
+        margin-bottom: 12px;
+        min-height: 350px;
+        border-radius: 12px;
+    }
+
+
+    /*----------------------  Services   ----------------------*/
+        /*------------ Services SECTION 1 -------------*/
+        .fatherBagServicesSEC1{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .PargraphSec1BagServices{
+            font-weight: bold;
+            margin-left:160px;
+            margin-top: 60px;
+        }
+
+        .HrSec1BagServices{
+            width: 140px;
+            margin:auto;
+            margin-bottom: 50px;
+        }
+        .TextServicesSEC1 p{
+            font-size:15px;
+            margin-left:25px;
+        }
+        .PhotoServicesSEC1{
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+         /*------------ Services SECTION 1 -------------*/
+        .PhotoServicesSEC2{
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+        .TextServicesSEC2 p{
+            font-size:15px;
+            margin-left:25px;
+        }
+
+        
+     /*----------------------  CONTACT   ----------------------*/
+        /*------------ CONTACT SECTION 1 -------------*/
+
+        .fatherSEC1Contact{
+            display: flex;
+            flex-direction: column;
+        }
+        .PargraphSEC1Contact{
+            font-weight: bold;
+            margin-left:100px ;
+            margin-top: 10%;
+        
+        }
+        .HRSEC1Contact{
+            width: 250px;
+            margin:auto;
+        }
+        .ppSEC1Contact{
+            line-height:22px;
+            margin-left: 30px;
+        }    
+        .PhotoSEC1Contact{
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+
+         /*------------ CONTACT SECTION 2 -------------*/
+       
+        .fatherSEC1Contact{
+    
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+}
+
+@media only screen and (max-width:1200px){/*------ large -----*/
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav1{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        
+        
+    } 
+    .marginli{
+        padding-left: 0px;
+    }
+    
+    .profileHeeder{
+        width:70%;
+   
+    
+    }
+}
